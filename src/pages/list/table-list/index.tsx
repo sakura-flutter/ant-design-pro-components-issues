@@ -189,6 +189,7 @@ const TableList: React.FC = () => {
         headerTitle="查询表格"
         actionRef={actionRef}
         rowKey="key"
+        scroll={{ x: 2000 }}
         search={{
           labelWidth: 120,
         }}
